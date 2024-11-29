@@ -3,6 +3,7 @@
 #include <sys/shm.h>
 #include <string.h>
 #include <stdlib.h>
+#include <signal.h>
 
 #define SHM_KEY 1234  // Unique key for shared memory
 
